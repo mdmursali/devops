@@ -15,10 +15,9 @@ if __name__ == '__main__':
     app.run()
 
 
-PORT = int(os.environ.get("PORT", 5001))
+PORT = int(os.environ.get("PORT", 9090))
 if __name__ == '__main__':
     app.run(threaded=True,host='0.0.0.0',port=PORT)
 
 if __name__ == "__main__":
-  app.run(host='0.0.0.0', port=5001)
-
+  app.run(host='0.0.0.0', port=9090)
