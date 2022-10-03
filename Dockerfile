@@ -5,4 +5,4 @@ RUN pip install flask==2.1.*
 COPY . /
 ENV FLASK_APP=app
 EXPOSE 9090
-CMD flask run --host 0.0.0.0 --port 9090
+CMD flask run --host 127.0.0.1 --port 9090
